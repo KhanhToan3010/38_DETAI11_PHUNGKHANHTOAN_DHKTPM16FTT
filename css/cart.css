@@ -1,0 +1,186 @@
+.mainProduct{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 40px;
+    margin-left: 35%;
+}
+.btn a{
+    
+}
+ .btn__mua{
+    margin: 50px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    transition: all 0.4s ease;
+    padding: 10px 60px;
+    
+
+} 
+
+ .btn__mua:hover{
+    font-size: 30px;
+    color: rgb(11, 137, 239);
+    background-color: aliceblue;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.mainProduct__descrip{
+    margin-top: 55px;
+}
+
+.mainProduct__descrip-img{
+    margin-left: 15%;
+}
+
+.mainProduc__descrip2{
+    width: 100%;
+    height: fit-content;
+}
+
+.pagesub{
+text-align: center;
+margin: auto;
+margin-top: 50px;
+font-weight: 500;
+font-size: 48px;
+}
+
+.img__service{
+    margin-top: 50px;
+}
+.img__service .gird{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px;
+    gap: 2rem;
+}
+
+.grow { transition: all .2s ease-in-out; }
+ .grow:hover { transform: scale(1.04); }
+
+.img__service-des{
+    font-size: 20px;
+    margin: 150px;
+    margin-top: 80px;
+   
+}
+
+/*-----------mainProduct__descrip3------------- */
+.framebc{
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.frame1-2{
+    margin: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+ .titlefr{
+    font-size: 30px;
+    padding: 30px 20px;
+}
+.descrip{
+    margin-bottom: 40px;
+}
+
+.designfr3{
+    display: flex;
+    margin: 30px;
+}
+
+.designfr3__img{
+    padding-left: 40px;
+}
+
+/*------------Slide Contact---------------*/
+
+.tiltleHero{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 20%;
+}
+
+ .tiltleHero-text{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heroSec{
+    position: relative;
+}
+
+.mainSection{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactInfo__tiltle{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contactInfo__tiltle--text{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.contactInfo__gird{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 5%;
+}
+.contact p{
+    margin-top: 15px;
+}
+.contactItem{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px 40px;
+   
+}
+
+.contactInfo__gird .contact span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact .btn a{
+    text-decoration: none;
+}
+
+
+.contact .btn{
+    margin: 40px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    transition: all 0.5s ease;
+    padding: 10px 30px;
+  
+    
+}
+
+.contact .btn:hover{
+    width: 70%;
+    transition: all 0.7s ease;
+    background-color: lightskyblue;
+    opacity: 0.7;
+    
+}
+
+.contactForm{
+    margin-bottom: 5%;
+}

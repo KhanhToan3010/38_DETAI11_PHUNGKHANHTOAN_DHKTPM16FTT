@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinTuc</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">   
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <link rel="stylesheet" href="./css/cart.css">
+
+</head>
+<body>
+    
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="user-menu">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-user"></i>Website Của Khánh Toàn Đẹp Trai</a></li>
+                            <li><a href="cart.html"><i class="fa fa-user"></i>Giỏ Hàng</a></li>
+                            <li><a href="checkout.html"><i class="fa fa-user"></i>Giao Hàng</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div> 
+
+    <div class="site-branding-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <h1><a href="./"><img src="img/techno-apps-logo_10399-20.webp" style="width: 200px; height: 150px;"></a></h1>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="shopping-item">
+                        <a href="cart.html">Giỏ Hàng - <span class="cart-amunt">5.000.000đ</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="mainmenu-area">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> 
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="product.html">Sản Phẩm</a></li>
+                   <!--<li><a href="single-product.html">Thông </a></li> -->
+                        <li><a href="cart.html">Giỏ Hàng</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div> 
+                <div class="search" style="float: left; margin-left: 80%;
+                margin-top: -50px; ">
+                    <input type="text" placeholder="serach here" style="border: 5px; background-color:lightblue;">
+                    <img src="./img/search.png" style="width: 35px;  cursor: pointer;;">
+                </div>  
+            </div>
+        </div>
+    </div> <!-- End mainmenu area -->
+
+      <!-- Start Main---------------------- -->
+      <div class="heroSec"><img src="./img/Contact_Us_KV_1440x640.jpg.jpg" width="100%"></div>
+        <div class="tiltleHero"><h2 class="tiltleHero-text">WEBPHONE Sẵn Sàng Hỗ Trợ Bạn!</h2></div>
+    <div class="mainSection">
+        <div class="contactInfo">
+            <div class="contactInfo__tiltle"><h2 class="contactInfo__tiltle--text">Thông Tin Liên Hệ</h2></div>
+            <div class="contactInfo__gird">
+                <div class="contact contactItem ">
+                    <span>Gọi Điện Thoại</span>
+                    <p>Hỗ trợ sản phẩm và dịch vụ Samsung
+                        1800 588 889 (tất cả sản phẩm)
+                        1800 588 855 (thiết bị di động)
+                        Giờ làm việc:
+                        24 giờ, 7 ngày trong tuần. Miễn cước phí</p>
+                        <button class="btn">180058899</button>
+                        
+                </div>
+                <div class="contact contactItem">
+                    <span>Trung Tâm Bảo Hành</span>
+                    <p>Tìm kiếm Trung Tâm Bảo Hành gần bạn nhất</p><br>
+                    <button class="btn">Tìm Trung Tâm</button>
+                </div>
+                <div class="contact contactItem">
+                    <span>Dành Cho Khách Hàng Doanh Nghiệp</span>
+                    <p>
+                        1800-588-890 (dành cho khách hàng doanh nghiệp)
+                        Giờ làm việc:
+                        24 giờ, 7 ngày trong tuần. Miễn cước phí
+                    </p>
+                    <button class="btn">1890444554</button>
+                </div>
+            </div>
+
+            <div class="contactForm">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                        <form class="horizontal-form" id="frm">
+                            <div class="form-group">
+                                <label class="label-control col-xs-3 col-sm-3 col-md-3 col-lg-3">Name</label>
+                                <div class=" col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <input type="text" name="" class="form-control" id="hoTen" placeholder="Full Name" onblur="kiemTraTen()" style="background-color: lightgrey;">
+                                    <span id="txtTen"></span><br><br>
+                                </div>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label class="label-control col-xs-3 col-sm-3 col-md-3 col-lg-3">Email</label>
+                                <div class=" col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <input type="text" name="" class="form-control" id="email" placeholder="Email" onblur="kiemTraEmai()" style="background-color: lightgrey;">
+                                    <span id="txtemail"></span><br><br>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="label-control col-xs-3 col-sm-3 col-md-3 col-lg-3">Phone</label>
+                                <div class=" col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <input type="text" name="" class="form-control" id="phone" placeholder="Phone Number" onblur="kiemTraPhone()" style="background-color: lightgrey;">
+                                    <span id="txtphone"></span><br>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class=" col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                    <input type="button" name="" class="btn btn-success" value="Submit" onclick="Dangky()">
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" style="border: none; width: 40%;">
+                        <img src="./img/Contact__img.webp">
+                    </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="container-fluid" style="margin-bottom: 2%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.856438834871!2d106.68526211462296!3d10
+        .822296492290397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2s
+        Industrial%20University%20of%20Ho%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1650035225809!5m2!1sen!2s" width="100%" height="600" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        
+        <div class="container-fluid padding" style="background-color: #4b4d43; color: aliceblue;">	
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 style="color: yellow;">WebPhone</h5>
+                    <hr class="light">
+                    <div id="ft1">
+                    <p>Hotline :0909979797</p>
+                    <p>Email :webphone@gmail.com</p>
+                    <p>12,LeVanBao,GoVap,HoChiMinh, Vietnam</p>
+                        </div>
+                </div>
+                <div class="col-md-4" >				
+                    <hr class="light">
+                    <h5 style="color: yellow;">Working hours</h5>
+                    <hr class="light">
+                    <div id="ft2">
+                    <p>Monday-Friday: 8am - 5pm</p>
+                    <p>Weekend: 8am - 12am</p>
+                    </div>
+    
+                </div>
+                <div class="col-md-4">				
+                    <hr class="light">
+                    <h5 style="color: yellow;">LIÊN HỆ</h5>
+                    <hr class="light">
+                    <div id="ft3">
+                    
+                    
+                    <p>Sales: Mr.Toàn </p>
+                        <p>Điện thoại : 0907179179</p>
+                        <p>Email:khanhtoan18079261@gamil.com</p>
+                   </div>
+                    
+                    
+                </div>
+    <div class="container-fluid padding">	
+        <div class="row text-center padding">
+            <div class="col-12">
+                
+            </div>
+           
+        </div>
+    </div>		
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy;2022 WEBPHONE</h5>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+   <script src="./js/flickity.pkgd.min.js"></script>
+
+   <!-- Latest jQuery form server -->
+   <script src="https://code.jquery.com/jquery.min.js"></script>
+    
+   <!-- Bootstrap JS form CDN -->
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   
+   <!-- jQuery sticky menu -->
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/jquery.sticky.js"></script>
+   
+   <!-- jQuery easing -->
+   <script src="js/jquery.easing.1.3.min.js"></script>
+   
+   <!-- Main Script -->
+   <script src="js/main.js"></script>
+    
+</body>
+</html>
